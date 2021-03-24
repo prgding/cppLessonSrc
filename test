@@ -1,0 +1,41 @@
+//函数重载 初始化列表 const 类型转换
+//指针 引用 命名空间
+#include <iostream>
+
+#include <cstring>
+
+#define M 2+3*4
+using namespace std;
+
+void *malloc();//void* 说明可以指向任何数据类型
+struct students {
+    int age;
+    char name;
+};
+
+int main() {
+    //int a(9);定义时可以这样用
+    //a(10);编译失败；会认为a为函数
+
+    //int *prt=(int*)malloc(sizeof(int)*5);
+
+    //#define M 2+3*4 开头 无需类型
+    //内敛函数
+    //const int a=10;  任意 需要类型
+
+    //int a=2*M;
+    //cout << "2*M = " << a << endl;
+
+    const int b = 7;
+    const int *const a = &b; //a指针变量里面放的是整型数据的地址
+       int s = b;
+    cout << "a = " << a << endl;
+    cout << "&b = " << &b << endl;
+    cout << "*a = " << *a << endl;
+    cout << "b = " << b << endl;
+
+    int c = 4;
+    a = &c;
+    cout << "a = " << a << endl;
+    cout << "&c = " << &c << endl;
+}
