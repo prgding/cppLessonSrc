@@ -1,0 +1,68 @@
+#include <iostream>
+
+using namespace std;
+
+/*#define unsigned int u16;//不常用，下面两个常用
+typedef unsigned int u16;
+using u16 = unsigned int;//这三个相同*/
+
+
+int main() {
+/*    int a=2,b;
+    b=++a;
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
+    a=a++;//算术 关系 逻辑
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;*/
+
+
+
+/*
+    constexpr int b=5;
+    constexpr int a = b + 3;//这两个都要加
+    cout << "a = " << a << endl;
+*/
+
+    //int max();
+    //const int a=2;
+/*
+    //类型处理
+    auto a=2;   //a是int类型
+    auto b=2.3;   //double
+
+    //decltype(max()) c=2;  //c有了 int 类型
+
+    decltype(a) c=2;  //c赋有了a的类型
+    decltype(c) d=3;  //可以传递   新加的以前没有
+*/
+
+/*    bool b=33;
+    cout << "b = " << b << endl;
+    int a=b;
+    cout << "a = " << a << endl;
+    unsigned char c=-1;
+    printf("%d\n",c);
+    cout << "c = " << c << endl;
+    //源码1000 0001
+    //取反1111 1110
+    //补码1111 1111 255*/
+
+    /*unsigned int u = 10, uu = 20;
+    int i = -42;
+    cout << "i+i = " << i + i << endl;
+    cout << "u+u = " << u + u << endl;
+    cout << "u+i = " << u + i << endl;
+    cout << "u-uu = " << u - uu << endl;
+    cout << "u = " << u << endl;
+    cout << "i = " << i << endl;
+    */
+
+
+    // *题目
+    //(1)  5！ 数据放在数组当中
+    //(2)  二维数组的输入输出，input和output函数
+    //(3)  统计字符串个数
+
+    return 0;
+}
